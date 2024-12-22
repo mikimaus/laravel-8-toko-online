@@ -182,11 +182,11 @@ Happy to shop
         <div class="medizin_laypout">
           <div class="product-cd-header in_flex wrap al_center fl_center tc">
             <h6 class="product-cd-heading section-title">
-              {{ session()->get('language') === 'bangla' ? 'প্রতিদিনের ডিল' : 'Daily Deal Of The Day' }}
+              {{ session()->get('language') === 'bangla' ? 'Daily Deal Of The Day' : 'Daily Deal Of The Day' }}
             </h6>
             <div class="countdown-wrap in_flex fl_center al_center wrap pr_deal_dt">
               <div class="countdown-label">
-                {{ session()->get('language') === 'bangla' ? 'সমাপ্তি' : 'End in' }}:</div>
+                {{ session()->get('language') === 'bangla' ? 'Berakhir dalam' : 'End in' }}:</div>
               <div class="countdown pr_coun_dt" data-date="{{ date('Y/m/d', strtotime('+1 day')) }}"></div>
             </div>
           </div>
@@ -218,11 +218,11 @@ Happy to shop
                   </h3>
                   @if (isset($product->discount))
                   <p class="price_range" id="price_qv">
-                    <del> ৳{{ $product->price }}</del>
-                    <ins> ৳{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
+                    <del> Rp.{{ $product->price }}</del>
+                    <ins> Rp.{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
                   </p>
                   @else
-                  <span class="price dib mb__5"> ৳ {{ $product->price }} <span class="text-danger"></span></span>
+                  <span class="price dib mb__5"> Rp. {{ $product->price }} <span class="text-danger"></span></span>
                   @endif
                 </div>
               </div>
@@ -252,11 +252,11 @@ Happy to shop
                   </h3>
                   @if (isset($product->discount))
                   <p class="price_range" id="price_qv">
-                    <del> ৳{{ $product->price }}</del>
-                    <ins> ৳{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
+                    <del> Rp.{{ $product->price }}</del>
+                    <ins> Rp.{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
                   </p>
                   @else
-                  <span class="price dib mb__5"> ৳ {{ $product->price }} <span class="text-danger"></span></span>
+                  <span class="price dib mb__5"> Rp. {{ $product->price }} <span class="text-danger"></span></span>
                   @endif
                 </div>
               </div>
@@ -329,11 +329,11 @@ Happy to shop
                       </h3>
                       @if (isset($product->discount))
                       <p class="price_range" id="price_qv">
-                        <del> ৳{{ $product->price }}</del>
-                        <ins> ৳{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
+                        <del> Rp.{{ $product->price }}</del>
+                        <ins> Rp.{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
                       </p>
                       @else
-                      <span class="price dib mb__5"> ৳ {{ $product->price }} <span class="text-danger"></span></span>
+                      <span class="price dib mb__5"> Rp. {{ $product->price }} <span class="text-danger"></span></span>
                       @endif
                     </div>
                   </div>
@@ -363,11 +363,11 @@ Happy to shop
                       </h3>
                       @if (isset($product->discount))
                       <p class="price_range" id="price_qv">
-                        <del> ৳{{ $product->price }}</del>
-                        <ins> ৳{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
+                        <del> Rp.{{ $product->price }}</del>
+                        <ins> Rp.{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
                       </p>
                       @else
-                      <span class="price dib mb__5"> ৳ {{ $product->price }} <span class="text-danger"></span></span>
+                      <span class="price dib mb__5"> Rp. {{ $product->price }} <span class="text-danger"></span></span>
                       @endif
                     </div>
                   </div>
@@ -406,11 +406,11 @@ Happy to shop
                       </h3>
                       @if (isset($product->discount))
                       <p class="price_range" id="price_qv">
-                        <del> ৳{{ $product->price }}</del>
-                        <ins> ৳{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
+                        <del> Rp.{{ $product->price }}</del>
+                        <ins> Rp.{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
                       </p>
                       @else
-                      <span class="price dib mb__5"> ৳ {{ $product->price }} <span class="text-danger"></span></span>
+                      <span class="price dib mb__5"> Rp. {{ $product->price }} <span class="text-danger"></span></span>
                       @endif
                     </div>
                   </div>
@@ -440,11 +440,11 @@ Happy to shop
                       </h3>
                       @if (isset($product->discount))
                       <p class="price_range" id="price_qv">
-                        <del> ৳{{ $product->price }}</del>
-                        <ins> ৳{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
+                        <del> Rp.{{ $product->price }}</del>
+                        <ins> Rp.{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
                       </p>
                       @else
-                      <span class="price dib mb__5"> ৳ {{ $product->price }} <span class="text-danger"></span></span>
+                      <span class="price dib mb__5"> Rp. {{ $product->price }} <span class="text-danger"></span></span>
                       @endif
                     </div>
                   </div>
@@ -463,7 +463,7 @@ Happy to shop
     </div>
     <!-- end tab section-->
 
-    <!-- Hot deals-->
+    {{-- <!-- Hot deals-->
     <div class="kalles-section nt_section type_featured_collection tp_se_cdt">
       <div class="kalles-electronic-vertical__bestseller container">
         <div class="row al_center fl_center title_10">
@@ -505,11 +505,11 @@ Happy to shop
                 </h3>
                 @if (isset($product->discount))
                 <p class="price_range" id="price_qv">
-                  <del> ৳{{ $product->price }}</del>
-                  <ins> ৳{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
+                  <del> Rp.{{ $product->price }}</del>
+                  <ins> Rp.{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
                 </p>
                 @else
-                <span class="price dib mb__5"> ৳ {{ $product->price }} <span class="text-danger"></span></span>
+                <span class="price dib mb__5"> Rp. {{ $product->price }} <span class="text-danger"></span></span>
                 @endif
               </div>
             </div>
@@ -539,11 +539,11 @@ Happy to shop
                 </h3>
                 @if (isset($product->discount))
                 <p class="price_range" id="price_qv">
-                  <del> ৳{{ $product->price }}</del>
-                  <ins> ৳{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
+                  <del> Rp.{{ $product->price }}</del>
+                  <ins> Rp.{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
                 </p>
                 @else
-                <span class="price dib mb__5"> ৳ {{ $product->price }} <span class="text-danger"></span></span>
+                <span class="price dib mb__5"> Rp. {{ $product->price }} <span class="text-danger"></span></span>
                 @endif
               </div>
             </div>
@@ -563,9 +563,9 @@ Happy to shop
         </div>
       </div>
     </div>
-    <!-- end Hot deals-->
+    <!-- end Hot deals--> --}}
 
-    <!-- featured products-->
+    {{-- <!-- featured products-->
     <div class="kalles-section nt_section type_prs_countd_deal type_carousel tp_se_cdt">
       <div class="kalles-medical__deal-section container">
         <div class="medizin_laypout">
@@ -603,11 +603,11 @@ Happy to shop
                   </h3>
                   @if (isset($product->discount))
                   <p class="price_range" id="price_qv">
-                    <del> ৳{{ $product->price }}</del>
-                    <ins> ৳{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
+                    <del> Rp.{{ $product->price }}</del>
+                    <ins> Rp.{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
                   </p>
                   @else
-                  <span class="price dib mb__5"> ৳ {{ $product->price }} <span class="text-danger"></span></span>
+                  <span class="price dib mb__5"> Rp. {{ $product->price }} <span class="text-danger"></span></span>
                   @endif
                 </div>
               </div>
@@ -637,11 +637,11 @@ Happy to shop
                   </h3>
                   @if (isset($product->discount))
                   <p class="price_range" id="price_qv">
-                    <del> ৳{{ $product->price }}</del>
-                    <ins> ৳{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
+                    <del> Rp.{{ $product->price }}</del>
+                    <ins> Rp.{{ round($product->price - (($product->discount * $product->price) / 100)) }}</ins>
                   </p>
                   @else
-                  <span class="price dib mb__5"> ৳ {{ $product->price }} <span class="text-danger"></span></span>
+                  <span class="price dib mb__5"> Rp. {{ $product->price }} <span class="text-danger"></span></span>
                   @endif
                 </div>
               </div>
@@ -653,7 +653,8 @@ Happy to shop
         </div>
       </div>
     </div>
-    <!-- end featured products-->
+    <!-- end featured products--> --}}
+    <br>
   </div>
 </div>
 @endsection
