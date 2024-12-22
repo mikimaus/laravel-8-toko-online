@@ -86,12 +86,22 @@
 Pada project kali ini kami memilih tema e-commerce.
 
 Nama Anggota Kelompok:
-* A
-* B
-* C
-* D
+* Fajar Setiawan
+* Febri Rola
+* Muhammad Aldi Rizky Pratama
+* Muhammad Aulia Risky
 
-Tentu saja project ini tidak berhenti disini saja, kedepannya kami ingin mengembangkan aplikasi kecil kami agar setidaknya bisa nyaman digunakan
+Untuk fitur pada aplikasi e-commerce kami kali iniyaitu
+1. Dashboard Admin dan User
+2. Login Admin dan User
+3. Slider, Brand, Catalog, Product, dan Coupon
+4. Hot deals, dan diskon product
+5. Ganti bahasa
+6. Kategori dan sub kategori
+7. Cart dan wishlist
+8. Checkout - Coming soon
+   
+Tentu saja project ini tidak berhenti disini saja, kedepannya kami ingin mengembangkan aplikasi kami agar setidaknya bisa nyaman digunakan
 
 <!-- Use the `BLANK_README.md` to get started. -->
 
