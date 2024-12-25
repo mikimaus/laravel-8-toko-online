@@ -161,7 +161,36 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Deskripsi singkat tentang web ini.
+Proyek ini adalah contoh implementasi aplikasi toko online menggunakan framework Laravel 8. Aplikasi ini dirancang untuk memfasilitasi transaksi jual beli secara daring dengan fitur-fitur berikut:
+
+Fitur Utama:
+Manajemen Produk:
+
+Tambah, edit, dan hapus produk.
+Upload foto produk.
+Keranjang Belanja:
+
+Menambahkan produk ke keranjang belanja.
+Mengatur jumlah barang dalam keranjang.
+Sistem Transaksi:
+
+Proses checkout lengkap dengan pilihan metode pembayaran.
+Riwayat pembelian untuk pelanggan.
+Dashboard Admin:
+
+Mengelola produk, kategori, dan pesanan.
+Melihat statistik toko.
+Autentikasi:
+
+Sistem login dan registrasi untuk pelanggan dan admin.
+Proteksi halaman admin dengan middleware.
+Teknologi yang Digunakan:
+Laravel 8: Framework PHP untuk backend.
+Blade: Sistem templating bawaan Laravel untuk frontend.
+Bootstrap: Library CSS untuk desain antarmuka.
+MySQL: Basis data untuk menyimpan data produk, pengguna, dan transaksi.
+
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
