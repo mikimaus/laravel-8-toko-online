@@ -10,7 +10,7 @@ use App\Models\SubSubCategory;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Gate;
 
-class SubSubcategoryController extends Controller
+class SubSubCategoryController extends Controller
 {
     public function index()
     {

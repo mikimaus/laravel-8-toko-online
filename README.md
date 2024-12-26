@@ -18,12 +18,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Unlicense License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 
@@ -38,8 +33,6 @@
 
   <p align="center">
     Project ini dibuat untuk syarat kelulusan Bootcamp yang diadakan oleh Garuda Cyber Indonesia 
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Demo Aplikasi »</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
@@ -81,7 +74,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![ERD Bootcamp](https://github.com/user-attachments/assets/b99f2c2e-d3ca-4e73-8502-a85b3e2e24be)
+]
 
 Pada project kali ini kami memilih tema e-commerce.
 
@@ -91,7 +85,7 @@ Nama Anggota Kelompok:
 * Muhammad Aldi Rizky Pratama
 * Muhammad Aulia Risky
 
-Untuk fitur pada aplikasi e-commerce kami kali iniyaitu
+Untuk fitur pada aplikasi e-commerce kami kali ini yaitu:
 1. Dashboard Admin dan User
 2. Login Admin dan User
 3. Slider, Brand, Catalog, Product, dan Coupon
@@ -101,7 +95,6 @@ Untuk fitur pada aplikasi e-commerce kami kali iniyaitu
 7. Cart dan wishlist
 8. Checkout - Coming soon
    
-Tentu saja project ini tidak berhenti disini saja, kedepannya kami ingin mengembangkan aplikasi kami agar setidaknya bisa nyaman digunakan
 
 <!-- Use the `BLANK_README.md` to get started. -->
 
@@ -168,13 +161,38 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Deskripsi singkat tentang web ini.
+Proyek ini adalah contoh implementasi aplikasi toko online menggunakan framework Laravel 8. Aplikasi ini dirancang untuk memfasilitasi transaksi jual beli secara daring dengan fitur-fitur berikut:
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Fitur Utama:
+Manajemen Produk:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Tambah, edit, dan hapus produk.
+Upload foto produk.
+Keranjang Belanja:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Menambahkan produk ke keranjang belanja.
+Mengatur jumlah barang dalam keranjang.
+Sistem Transaksi:
+
+Proses checkout lengkap dengan pilihan metode pembayaran.
+Riwayat pembelian untuk pelanggan.
+Dashboard Admin:
+
+Mengelola produk, kategori, dan pesanan.
+Melihat statistik toko.
+Autentikasi:
+
+Sistem login dan registrasi untuk pelanggan dan admin.
+Proteksi halaman admin dengan middleware.
+Teknologi yang Digunakan:
+Laravel 8: Framework PHP untuk backend.
+Blade: Sistem templating bawaan Laravel untuk frontend.
+Bootstrap: Library CSS untuk desain antarmuka.
+MySQL: Basis data untuk menyimpan data produk, pengguna, dan transaksi.
+
+## HOSTING
+http://shoopingmart.biz.id/
 
 
 
@@ -192,68 +210,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Top contributors:
-
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
-</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the Unlicense License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
