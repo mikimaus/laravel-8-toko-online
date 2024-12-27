@@ -79,8 +79,7 @@
 
 Pada project kali ini kami memilih tema e-commerce.
 
-Nama Anggota Kelompok:
-* Fajar Setiawan
+Nama Anggota Kelompok :
 * Febri Rola
 * Muhammad Aldi Rizky Pratama
 * Muhammad Aulia Risky - <a href="https://drive.google.com/drive/folders/1acHYigNqU2Dlu5VenB7qA9VjWmSL_9Xn?usp=sharing">Video Presentasi</a>
